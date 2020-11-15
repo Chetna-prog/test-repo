@@ -1,0 +1,212 @@
+/*
+Theme Name: vlog
+Author: Chetna Arora
+Description: This is a custom wordpress theme.
+Version: 1.0.0
+Text Domain: vlog
+*/
+
+
+/** slider arrow **/
+.carousel-control-prev {
+     left: inherit;
+}
+.container {
+    max-width: 1220px;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+     width: 55px;
+     height: 55px;
+     background: #e0e5e5;
+     opacity: 1;
+     font-size: 30px;
+     color: #000;
+     border-radius: 30px;
+}
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+     background: #308409;
+     color: #fff;
+}
+#main_slider a.carousel-control-prev {
+     position: absolute;
+     right: 82px;
+     bottom: 10px;
+     top: inherit;
+}
+#main_slider a.carousel-control-next {
+     position: absolute;
+     right: 40px;
+     top: inherit;
+     bottom: 10px;
+}
+/*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
+
+.header {
+     background-color: rgb(0 0 0 / 51%);
+     background-repeat: repeat;
+     background-size: auto;
+     position: absolute;
+     z-index: 999;
+     width: 100%;
+     left: 0;
+     top: 0;
+     padding: 0;
+     padding-top: 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     min-height: 95px;
+     padding-top: 15px
+}
+
+.logo {
+     float: left;
+     position: relative;
+}
+
+nav.main-menu {
+     float: right;
+     margin-left: 0;
+}
+
+ul.top_icon {
+     float: right;
+     padding-top: 17px;
+}
+
+ul.top_icon li {
+     float: left;
+     color: #fff;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-right: 20px;
+}
+
+ul.top_icon li:last-child {
+     padding-right: 0px;
+}
+
+ul.top_icon li a {
+     color: #fff;
+}
+
+.menu-area-main li:hover a,
+.menu-area-main li:focus a {
+     color: #e6dede;
+}
+
+.menu-area-main li.active a {
+     color: #6fa0e8;
+}
+
+.right_cart_section {
+     float: right;
+     width: auto;
+}
+
+.right_cart_section ul {
+     float: left;
+     min-height: auto;
+     margin: 0;
+     padding: 12px 0 0;
+}
+
+.right_cart_section .cart_icons {
+     padding: 18px 0 0;
+}
+
+.main-menu ul>li nth:child(5) a {
+     padding-right: 0px;
+}
+
+.right_cart_section ul li {
+     float: left;
+     font-size: 17px;
+     font-weight: 400;
+     color: #fff;
+     margin-right: 30px;
+}
+
+.right_cart_section ul.cart_update li {
+     font-size: 13px;
+     color: #ccc;
+     line-height: normal;
+     margin: 0;
+     font-weight: 300;
+}
+
+.right_cart_section ul.cart_update li span {
+     font-size: 18px;
+     font-weight: 300;
+     color: #fff;
+     line-height: 21px;
+}
+
+.right_cart_section ul li i {
+     margin-right: 10px;
+     margin-top: 5px;
+     float: left;
+     color: #fff;
+     font-size: 21px;
+}
+
+.right_cart_section ul li a {
+     color: #fff;
+}
+
+
+/*-- end header middle --*/
+
+.top-bar-info {
+     background: #111111;
+     padding: 5px 0px;
+}
+
+.top-menu-left {
+     float: left;
+}
+
+.top-menu-left li {
+     position: relative;
+     display: inline-block;
+     margin-right: 11px;
+     padding-right: 12px;
+}
+
+.top-menu-left li::before {
+     content: '';
+     position: absolute;
+     right: 0;
+     top: 9px;
+     height: 10px;
+     border-right: 1px dotted #999;
+}
+
+.top-menu-left li:last-child::before {
+     display: none;
+}
+
+.top-menu-left li:last-child {
+     padding: 0px;
+     margin: 0px;
+}
+
+.top-menu-left li a {
+     color: #ffffff;
+     font-size: 12px;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+
+.top-menu-left li a:hover {
+     color: #38c8a8;
+}
